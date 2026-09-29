@@ -1,0 +1,109 @@
+<!-- Fonts & Tailwind CSS CDN -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          display: ['"Space Grotesk"', 'sans-serif'],
+          body: ['"Inter"', 'sans-serif'],
+        },
+        colors: {
+          base: '#0A0E17',
+          surface: '#12182A',
+          surface2: '#161E33',
+          line: '#232B42',
+          muted: '#8B93A7',
+          orange: '#FF6B35',
+          blue: '#4F9DFF',
+          violet: '#A78BFA',
+          green: '#34D399',
+        }
+      }
+    }
+  }
+</script>
+
+<div class="bg-[#0A0E17] text-white font-['Inter',sans-serif] antialiased min-h-screen p-4 md:p-8">
+
+  <!-- Header / Attention Section -->
+  <header class="max-w-4xl mx-auto pt-8 pb-8 text-center">
+    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#161E33] border border-[#232B42] text-xs md:text-sm font-medium text-[#FF6B35] mb-6">
+      <span class="w-2 h-2 rounded-full bg-[#FF6B35] animate-pulse"></span>
+      Attention: Web Designers &amp; Agency Owners
+    </div>
+    <h1 class="font-['Space_Grotesk',sans-serif] text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 leading-tight">
+      Stop Wasting Hours on Manual Site Builds — <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6B35] via-[#A78BFA] to-[#4F9DFF]">Clone &amp; Deploy AI Agency Sites</span> in 60 Seconds
+    </h1>
+    <p class="text-[#8B93A7] text-base sm:text-xl max-w-2xl mx-auto leading-relaxed">
+      Cut your developer overhead, deliver client projects faster, and double your agency margins without writing code.
+    </p>
+  </header>
+
+  <!-- Interest & Proof Section (Video Embed) -->
+  <main class="max-w-4xl mx-auto pb-16">
+    <div class="text-center mb-4">
+      <h2 class="font-['Space_Grotesk',sans-serif] text-lg sm:text-2xl font-semibold text-white inline-flex items-center gap-2">
+        Watch The 7-Minute Walkthrough &amp; Live Demo 👇
+      </h2>
+    </div>
+
+    <!-- Responsive Video Container with Your Correct Link -->
+    <div class="relative w-full rounded-2xl overflow-hidden border border-[#232B42] bg-[#12182A] shadow-2xl mb-4" style="padding-top: 56.25%;">
+      <iframe 
+        class="absolute top-0 left-0 w-full h-full"
+        src="https://www.youtube.com/embed/yF5wb3wXC44" 
+        title="UniBuilder AI Walkthrough &amp; Demo"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+    
+    <p class="text-center text-xs sm:text-sm text-[#8B93A7] mb-12">
+      🔊 Turn on sound for full feature preview
+    </p>
+
+    <!-- Desire Section (Benefits) -->
+    <div class="grid md:grid-cols-3 gap-6 mb-12">
+      <div class="p-6 rounded-2xl bg-[#12182A] border border-[#232B42]">
+        <div class="w-10 h-10 rounded-xl bg-[#FF6B35]/10 flex items-center justify-center text-[#FF6B35] mb-4 text-xl">⚡</div>
+        <h3 class="font-['Space_Grotesk',sans-serif] font-semibold text-lg text-white mb-2">1-Click Site Cloning</h3>
+        <p class="text-[#8B93A7] text-sm leading-relaxed">Instantly clone and customize any existing website template for client fulfillment.</p>
+      </div>
+
+      <div class="p-6 rounded-2xl bg-[#12182A] border border-[#232B42]">
+        <div class="w-10 h-10 rounded-xl bg-[#A78BFA]/10 flex items-center justify-center text-[#A78BFA] mb-4 text-xl">🤖</div>
+        <h3 class="font-['Space_Grotesk',sans-serif] font-semibold text-lg text-white mb-2">Built-in AI Agents</h3>
+        <p class="text-[#8B93A7] text-sm leading-relaxed">Automated SEO research, copywriting, and layout creation built directly into the workflow.</p>
+      </div>
+
+      <div class="p-6 rounded-2xl bg-[#12182A] border border-[#232B42]">
+        <div class="w-10 h-10 rounded-xl bg-[#4F9DFF]/10 flex items-center justify-center text-[#4F9DFF] mb-4 text-xl">💰</div>
+        <h3 class="font-['Space_Grotesk',sans-serif] font-semibold text-lg text-white mb-2">100% Agency Profit Margins</h3>
+        <p class="text-[#8B93A7] text-sm leading-relaxed">Keep all client revenue with zero recurring monthly developer costs.</p>
+      </div>
+    </div>
+
+    <!-- Action Section (CTA) -->
+    <div class="text-center max-w-2xl mx-auto">
+      <a href="https://jvz5.com/c/3380761/447441/" target="_blank" rel="noopener" class="inline-block w-full sm:w-auto px-8 py-5 rounded-2xl bg-gradient-to-r from-[#FF6B35] via-[#A78BFA] to-[#4F9DFF] text-white font-bold text-lg sm:text-xl shadow-lg">
+        Claim Your UniBuilder AI Bundle Access Now →
+      </a>
+      <p class="mt-4 text-xs sm:text-sm text-[#8B93A7]">
+        🔒 30-Day Money-Back Guarantee • Instant Access • Agency License Included
+      </p>
+    </div>
+  </main>
+
+  <!-- Urgency & Guarantee Footer -->
+  <footer class="border-t border-[#232B42] py-8 text-center bg-[#12182A] rounded-b-2xl">
+    <p class="text-xs sm:text-sm text-[#8B93A7]">
+      Limited-Time Commercial Bundle Deal Available For New Agency Accounts.
+    </p>
+  </footer>
+
+</div>
